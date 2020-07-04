@@ -1,0 +1,92 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80");
+  background-size: cover;
+  padding: 5% 10%;
+  color: #383838;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#cv {
+  width: 100%;
+  height: 1400px;
+  background-color: #eee;
+  display: flex;
+}
+
+#header-background {
+  width: 78.72%;
+  height: 27%;
+  background-color: #bac2cb;
+  position: absolute;
+  z-index: 0;
+}
+
+#content {
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  padding: 3% 5%;
+}
+
+#personal-info {
+  width: 25%;
+  background-color: #e5e5e5;
+  margin-right: 5%;
+  padding: 0 3%;
+}
+
+img#avatar {
+  width: 60%;
+  border-radius: 50%;
+  margin: 15% 20% 0;
+}
+
+.info > div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+img.icon {
+  width: 1.7rem;
+  margin-right: 0.9rem;
+}
+
+#main-content {
+  width: 60%;
+}
+
+#header {
+  width: 100%;
+  height: 10%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+#name {
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+}
+
+#job-title {
+  font-size: 1rem;
+  font-weight: lighter;
+  letter-spacing: 0.2rem;
+  margin-top: 2%;
+}
+
+.expertise-item {
+  text-transform: capitalize;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+}
+
+.divider {
+  border-top: 1px solid #383838;
+  margin-top: 5%;
+}
