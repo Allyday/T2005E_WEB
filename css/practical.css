@@ -1,0 +1,62 @@
+body {
+  color: #000;
+}
+
+.header {
+  background-image: url('../images/menu.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+.navigation-menu {
+  display: flex;
+  justify-content: flex-end;
+  padding: 45px 8%;
+}
+
+.navigation-link {
+  font-size: 25px;
+  margin: 0 10px;
+  color: darkkhaki;
+}
+
+#title1 {
+  padding-left: 32%;
+}
+
+#title2 {
+  padding-left: 5%;
+}
+
+.body {
+  background-image: url('../images/content_bg.gif');
+  background-repeat: repeat-y;
+  background-size: contain;
+  height: 800px;
+}
+
+.passage {
+  padding: 3%;
+}
+
+.inline-link {
+  text-decoration: underline;
+  color: #000;
+}
+
+#inline-title {
+  padding-left: 3%;
+}
+
+p {
+  font-size: 18px;
+}
+
+#roster {
+  padding-left: 3%;
+}
+
+.member-name {
+  color: darkkhaki;
+}
