@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+</head>
+
+</html>
+
+<body>
+  <h1><span class="min">00</span>:<span class="sec">00</span></h1>
+  <script type="text/javascript" src="js/jQuery.js"></script>
+  <script type="text/javascript">
+    var min = 2;
+    var sec = 0;
+
+    var timerRef = setInterval(() => {
+      var minText = min > 10 ? min : "0" + min;
+      var secText = sec > 10 ? sec : "0" + sec;
+
+      $(".min").text(minText);
+      $(".sec").text(secText);
+
+      sec--;
+      if (sec < 0) {
+        min--;
+        sec = 59;
+      }
+
+      if (min < 0) clearInterval(timerRef);
+    }, 1000);
+  </script>
+</body>
